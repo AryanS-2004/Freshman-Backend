@@ -169,14 +169,18 @@
 .joke-heading {
     padding: 5px;
     font-family: 'Pacifico', cursive;
-    color: #18c8d1;
+    color: #fff;
     font-size: 45px;
 }
 
 .joke-text {
     padding: 30px;
     font-family: 'Merriweather', serif;
-    color: #10A19D;
+    color: #fff;
     line-height: 1.5;
     font-size: 26px;
+}
+
+.joke-ruler {
+    color: #fff;
 }

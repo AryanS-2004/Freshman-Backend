@@ -36,7 +36,7 @@ app.get("/dev", function (req, res) {
 })
 
 app.get("/reso", function (req, res) {
-    res.render("reso", { joke : joke});
+    res.render("reso", { jokeData : joke});
 })
 
 
