@@ -4,8 +4,8 @@
 
 -> Every person who wants to become a coder will find this platform helpful by guiding them and providing them with resources.
 
--> A description of the platforms available for coders is included so that the newbie can learn about them and utilize them effectively.
+->There is a description of the platforms available for coders so that the newbie can learn about them and utilize them effectively.
 
 -> Several DSA playlists and DSA question sheets are provided on the website along with links to Web Development Courses, App Development Courses and much more.
 
-Tech Stack Used : HTML, CSS, Bootstrap, JS, EJS, APIs, NodeJS ans ExpressJS.
+Tech Stack Used: HTML, CSS, Bootstrap, JS, EJS, APIs, NodeJS, and ExpressJS.
