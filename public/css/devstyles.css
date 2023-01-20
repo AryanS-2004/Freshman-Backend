@@ -47,7 +47,7 @@
 }
 
 .middle-bottom {
-    color: #EFEFEF;
+    color: #fff;
     font-size: 23px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
@@ -55,7 +55,7 @@
 
 .middle1-1-1 {
     padding: 0 20px 40px;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .middle1-1-1-heading {
@@ -78,7 +78,7 @@
     font-size: 50px;
     font-weight: 700;
     padding: 30px 40px;
-    color: #EFEFEF;
+    color: #fff;
 }
 
 .navbar {
@@ -206,7 +206,7 @@
 .joke-heading {
     padding: 5px;
     font-family: 'Pacifico', cursive;
-    color: #18c8d1;
+    color: #10A19D;
     font-size: 45px;
 }
 

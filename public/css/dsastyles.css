@@ -47,7 +47,7 @@
 }
 
 .middle-bottom {
-    color: #EFEFEF;
+    color: #fff;
     font-size: 24px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
@@ -77,17 +77,17 @@
     font-size: 50px;
     font-weight: 700;
     padding: 0 40px;
-    color: #EFEFEF;
+    color: #fff;
 }
 
 .middle-link {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .middle-link:hover {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #EFEFEF;
 }
 
 .navbar {
@@ -214,7 +214,7 @@
 .joke-heading {
     padding: 5px;
     font-family: 'Pacifico', cursive;
-    color: #18c8d1;
+    color: #10A19D;
     font-size: 45px;
 }
 

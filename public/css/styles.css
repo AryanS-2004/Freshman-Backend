@@ -48,12 +48,12 @@
 
 .middle-link {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .middle-link:hover {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .middle1-1-1 {
@@ -94,12 +94,12 @@
 }
 
 .nav-link {
-    color: #EEEEEE;
+    color: #fff;
     text-decoration: none;
 }
 
 .nav-link:hover {
-    color: #EEEEEE;
+    color: #fff;
     text-decoration: none;
 
 }
@@ -231,7 +231,7 @@
 .joke-heading {
     padding: 5px;
     font-family: 'Pacifico', cursive;
-    color: #18c8d1;
+    color: #10A19D;
     font-size: 45px;
 }
 

@@ -26,16 +26,44 @@ app.get("/", function (req, res) {
     res.render("index", { jokeData : joke});
 })
 app.get("/cp", function (req, res) {
+    const url = "https://v2.jokeapi.dev/joke/Programming?type=single";
+    https.get(url, function (response) {
+        response.on("data", function (data) {
+            const jokeData = JSON.parse(data);
+            joke = jokeData.joke;
+        })
+    })
     res.render("cp", { jokeData : joke});
 })
 app.get("/dsa", function (req, res) {
+    const url = "https://v2.jokeapi.dev/joke/Programming?type=single";
+    https.get(url, function (response) {
+        response.on("data", function (data) {
+            const jokeData = JSON.parse(data);
+            joke = jokeData.joke;
+        })
+    })
     res.render("dsa", { jokeData : joke});
 })
 app.get("/dev", function (req, res) {
+    const url = "https://v2.jokeapi.dev/joke/Programming?type=single";
+    https.get(url, function (response) {
+        response.on("data", function (data) {
+            const jokeData = JSON.parse(data);
+            joke = jokeData.joke;
+        })
+    })
     res.render("dev", { jokeData : joke});
 })
 
 app.get("/reso", function (req, res) {
+    const url = "https://v2.jokeapi.dev/joke/Programming?type=single";
+    https.get(url, function (response) {
+        response.on("data", function (data) {
+            const jokeData = JSON.parse(data);
+            joke = jokeData.joke;
+        })
+    })
     res.render("reso", { jokeData : joke});
 })
 
