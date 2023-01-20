@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Pacifico&family=Satisfy&family=Sevillana&family=Ubuntu&family=Urbanist&display=swap');
+
+.contact-me {
+    font-family: 'Merriweather', serif;
+    font-weight: 550;
+    text-align: center;
+    color: #10A19D;
+}
+
+.contact-me-btn {
+    border: 1px solid;
+    box-shadow: inset;
+    border-radius: 8px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #10A19D;
+}
+
+.contact-me-btn:hover {
+    background-color: #EFEFEF;
+    color: #10A19D;
+}
+
+.contact-me-h2 {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contact-me-h3 {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    padding: 20px 0;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.middle {
+    background-color: #10A19D;
+    font-family: 'Merriweather', serif;
+}
+
+.middle1-1 {
+    display: flex;
+}
+
+.middle-bottom {
+    color: #EFEFEF;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.middle1-1-1 {
+    padding: 0 20px 40px;
+    color: #FFFFFF;
+}
+
+.middle1-1-1-heading {
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.middle1-1-1-para {
+    padding: 0 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.middle-heading {
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 30px 40px;
+    color: #EFEFEF;
+}
+
+.navbar {
+    background-color: #10A19D;
+    padding: 0 20px 0 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 600;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+.top {
+    font-family: 'Ubuntu', sans-serif;
+    color: #10A19D;
+}
+
+.top1-1 {
+    display: flex;
+}
+
+.top1-1-data {
+    width: 45%;
+}
+
+.top1-1-heading {
+    font-family: 'Satisfy', cursive;
+    font-size: 36px;
+    padding: 18px 30px 0;
+    font-weight: 800;
+}
+
+.top1-1-para {
+    padding: 0 0 20px 30px;
+    margin: 5% 0;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 1.5;
+}
+
+.top1-1-space {
+    width: 10%;
+}
+
+.top1-1-data-img {
+    margin: 18% 0 10%;
+}
+
+.wrap {
+    padding: 60px 80px;
+    display: block;
+}
+
+@media (max-width :900px) {
+    .middle1-1 {
+        display: block;
+    }
+
+    .middle1-1-1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .middle1-1-1-para {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .middle-heading {
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .top1-1 {
+        display: block;
+    }
+
+    .top1-1-data {
+        width: 100%;
+    }
+
+    .top1-1-data-img {
+        display: none;
+    }
+
+    .top1-1-heading {
+        padding-left: 0;
+    }
+
+    .top1-1-para {
+        padding-left: 0;
+    }
+
+    .top1-1-space {
+        display: none;
+    }
+
+    .wrap {
+        padding: 30px 40px;
+    }
+}
+
+@media (max-width :380px) {
+    .contact-me-btn {
+        font-size: 12px;
+    }
+
+    .wrap {
+        padding: 30px 20px;
+    }
+
+}
+
+.joke-container {
+    text-align: center;
+}
+
+.joke-heading {
+    padding: 5px;
+    font-family: 'Pacifico', cursive;
+    color: #18c8d1;
+    font-size: 45px;
+}
+
+.joke-text {
+    padding: 30px;
+    font-family: 'Merriweather', serif;
+    color: #10A19D;
+    line-height: 1.5;
+    font-size: 26px;
+}
