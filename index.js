@@ -9,6 +9,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set('view engine', 'ejs');
 
+var joke = "I hope your code behaves the same on Monday as it did on Friday.";
+
+
 app.listen(3000, function(){
     console.log("The server is successfully started at port 3000.");
 })
@@ -17,23 +20,23 @@ app.get("/", function (req, res) {
     https.get(url, function (response) {
         response.on("data", function (data) {
             const jokeData = JSON.parse(data);
-            const joke = jokeData.joke;
+            joke = jokeData.joke;
         })
     })
-    res.render("index");
+    res.render("index", { jokeData : joke});
 })
 app.get("/cp", function (req, res) {
-    res.render("cp");
+    res.render("cp", { jokeData : joke});
 })
 app.get("/dsa", function (req, res) {
-    res.render("dsa");
+    res.render("dsa", { jokeData : joke});
 })
 app.get("/dev", function (req, res) {
-    res.render("dev");
+    res.render("dev", { jokeData : joke});
 })
 
 app.get("/reso", function (req, res) {
-    res.render("reso");
+    res.render("reso", { joke : joke});
 })
 
 
