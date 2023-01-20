@@ -8,4 +8,4 @@
 
 -> Several DSA playlists and DSA question sheets are provided on the website along with links to Web Development Courses, App Development Courses and much more.
 
-Tech Stack Used : HTML, CSS, and Bootstrap.
+Tech Stack Used : HTML, CSS, Bootstrap, JS, EJS, APIs, NodeJS ans ExpressJS.
