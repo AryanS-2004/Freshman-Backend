@@ -1,18 +1,17 @@
 var express = require("express");
-var bodyParser = require("body-parser");
 var https = require("https");
 var fs = require("fs");
 
 var app = express();
 
-app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
+app.use(express.json());
 app.set('view engine', 'ejs');
 
 var joke = "I hope your code behaves the same on Monday as it did on Friday.";
 
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log("The server is successfully started at port 3000.");
 })
 app.get("/", function (req, res) {
