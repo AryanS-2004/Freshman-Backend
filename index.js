@@ -1,11 +1,13 @@
 var express = require("express");
 var https = require("https");
+var bodyParser = require("body-parser")
 var fs = require("fs");
-
+var request = require("request");
 var app = express();
 
 app.use(express.static("public"));
 app.use(express.json());
+app.use(bodyParser.urlencoded({extended: true}))
 app.set('view engine', 'ejs');
 
 var joke = "I hope your code behaves the same on Monday as it did on Friday.";
@@ -64,6 +66,56 @@ app.get("/reso", function (req, res) {
         })
     })
     res.render("reso", { jokeData : joke});
+})
+
+app.get("/signup", function (req, res) {
+    res.sendFile(__dirname + "/signup.html")
+})
+app.post("/", function (req, res) {
+    var firstName = req.body.fName;
+    var lastName = req.body.lName;
+    var email = req.body.email;
+    const data = {
+        members: [
+            {
+                email_address: email,
+                status: "subscribed",
+                merge_fields: {
+                    FNAME: firstName,
+                    LNAME: lastName
+                }
+            }
+        ]
+    }
+    var jsonData = JSON.stringify(data);
+    const url = "https://us9.api.mailchimp.com/3.0/lists/4618cc18a5";
+
+    const options = {
+        method: "POST",
+        auth : "aryan:57706c6b3db76cfa59e284ebcddf18d0-us9"
+    }
+
+    const request = https.request(url, options, function (response) {
+
+        if (response.statusCode === 200) {
+            res.sendFile(__dirname + "/success.html")
+        }
+        else {    
+            res.sendFile(__dirname + "/faliure.html")
+        }
+
+        response.on("data", function (data) {
+            console.log(JSON.parse(data));
+        })
+    })
+    request.write(jsonData);
+    request.end();
+});
+app.post("/success", function (req, res) {
+    res.redirect("/")
+})
+app.post("/faliure", function (req, res) {
+    res.redirect("/signup")
 })
 
 
