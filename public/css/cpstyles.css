@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Pacifico&family=Satisfy&family=Sevillana&family=Ubuntu&family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Acme&family=Poppins&family=Satisfy&family=Pacifico&family=Sevillana&family=Ubuntu&family=Urbanist&display=swap');
 
 .contact-me {
-    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 550;
     text-align: center;
     color: #10A19D;
@@ -23,12 +23,12 @@
 
 .contact-me-h2 {
     font-size: 30px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 .contact-me-h3 {
     font-size: 20px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
     padding: 20px 0;
 }
 
@@ -39,24 +39,25 @@
 
 .middle {
     background-color: #10A19D;
-    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .middle-bottom {
     color: #fff;
     font-size: 24px;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 .middle1-1-1 {
     padding: 0 20px 40px;
+    text-align: center;
 }
 
 .middle1-1-1-heading {
     padding: 20px 0;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Acme', sans-serif;
     font-size: 28px;
     font-weight: 600;
 }
@@ -72,7 +73,7 @@
     font-family: 'Satisfy', cursive;
     font-size: 50px;
     font-weight: 700;
-    padding: 0 40px;
+    padding: 40px 40px;
     color: #fff;
 }
 
@@ -89,7 +90,7 @@
 .navbar {
     background-color: #10A19D;
     padding: 0 20px 0 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Acme', sans-serif;
     font-weight: 500;
 }
 
@@ -103,8 +104,13 @@
     font-size: 18px;
 }
 
+.platform-img {
+    height: 40%;
+    width: 40%;
+}
+
 .top {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #10A19D;
 }
 
@@ -160,6 +166,11 @@
         padding-right: 0;
     }
 
+    .platform-img {
+        height: 40%;
+        width: 90%;
+    }
+
     .top1-1 {
         display: block;
     }
@@ -206,14 +217,14 @@
 
 .joke-heading {
     padding: 5px;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Acme', sans-serif;
     color: #10A19D;
     font-size: 45px;
 }
 
 .joke-text {
     padding: 30px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
     color: #10A19D;
     line-height: 1.5;
     font-size: 26px;
