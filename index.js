@@ -3,6 +3,8 @@ var https = require("https");
 var bodyParser = require("body-parser")
 var fs = require("fs");
 var request = require("request");
+require("dotenv").config();
+
 var app = express();
 
 app.use(express.static("public"));
@@ -92,7 +94,7 @@ app.post("/", function (req, res) {
 
     const options = {
         method: "POST",
-        auth : "aryan:57706c6b3db76cfa59e284ebcddf18d0-us9"
+        auth : "aryan:"+process.env.API_KEY
     }
 
     const request = https.request(url, options, function (response) {
@@ -105,7 +107,7 @@ app.post("/", function (req, res) {
         }
 
         response.on("data", function (data) {
-            console.log(JSON.parse(data));
+            // console.log(JSON.parse(data));
         })
     })
     request.write(jsonData);

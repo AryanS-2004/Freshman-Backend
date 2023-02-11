@@ -120,7 +120,29 @@
 
 .top1-1-data {
     width: 45%;
+    vertical-align: auto;
 }
+
+/* .top1-1-img-cnt {
+    /* margin-top: 30%;
+    display: flex;
+    /* flex-direction: column; */
+/* justify-content: space-evenly; */
+/* gap: 30%; */
+/* padding: auto 0;
+} */
+
+.top1-1-img-cnt img {
+    text-align: center;
+
+}
+
+.top1-1-data-img {
+    width: 100%;
+    display: flex;
+    margin: auto 0;
+}
+
 
 .top1-1-heading {
     font-family: 'Satisfy', cursive;
