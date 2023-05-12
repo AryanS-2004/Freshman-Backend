@@ -8,4 +8,6 @@
 
 -> Several DSA playlists and DSA question sheets are provided on the website along with links to Web Development Courses, App Development Courses and much more.
 
+-> Jokes are displayed on the webiste which are fetched from the Joke API and jokes refresh everytime we refresh the page.
+
 Tech Stack Used: HTML, CSS, Bootstrap, JS, EJS, APIs, NodeJS, and ExpressJS.
